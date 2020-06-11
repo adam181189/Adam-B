@@ -51,42 +51,75 @@ body {
     color: #fff;
 }
 
+.navbar {
+   
+    width: 100%;
+    
+}
 
-.navigate-links {
 
-  padding: 14px 25px;
+
+
+.nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.nav-attach{
+    font-size:0 ;
+}
+
+.nav-box {
+  position:relative;
+  padding: 10px 25px;
+  border: 0px;
+  margin:0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
-.navigate-links-home {
+.nav-box-home {
     background-color: #e67e22;
     color: white;
 }
 
-.navigate-links-skills {
+.nav-box-home:hover {
+    background-color: white;
+    color: #e67e22;
+}
+
+.nav-box-skills {
     background-color: #9b59b6;
     color: white;
 }
 
-.navigate-links-contact {
+.nav-box-skills:hover {
+    background-color: white;
+    color: #9b59b6;
+}
+.nav-box-contact {
     background-color: #3498db;
     color: white;
 }
 
-.navigate-links-cv {
+.nav-box-contact:hover {
+    background-color: white;
+    color: #3498db;
+}
+
+.nav-box-cv {
     background-color: #525252;
     color: white;
 }
 
-.nav {
-   
+.nav-box-cv:hover {
+    background-color: white;
+    color: #525252;
 }
 
-.navbar {
-    position: relative;
-    width:100%;
+.nav {
+   
 }
 
 .personal-info {
