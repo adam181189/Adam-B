@@ -73,3 +73,17 @@ body {
   text-decoration: none;
   display: inline-block;
 }
+
+.personal-info {
+    text-align: left;
+    background-color: rgb(197, 186, 197);
+}
+
+.personal-info h2 {
+    text-align:center;
+}
+
+.social-media {
+    background-color:yellow;
+    display: inline-block;
+}
