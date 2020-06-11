@@ -1,5 +1,7 @@
 body {
     margin:0;
+    padding:0;
+    border:0;
     background-color: #8791a0
 }
 
@@ -7,12 +9,10 @@ body {
     
 }
 .main-photo{
-    background-image: url("../images/adam.jpg");
-    background-repeat: no-repeat;
-    background-size: 200px;   
+    background-color: rgb(71, 71, 70);
     background-position: center;
     padding:0px;
-    height:200px;
+    
    
 }
 
@@ -22,12 +22,12 @@ body {
 }
 
 .col {
-    padding-right:0px;
-  padding-left:0px;
+    padding:0px;
 }
 
 .title-nav {
-      height:200px;
+
+      
     
  }
 .navigate-links {
