@@ -1,0 +1,28 @@
+body {
+    margin:0;
+    background-color: #d4d6d9
+}
+
+.main-photo{
+    background-image: url("../images/adam.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    position: relative;
+    height:200px;
+    width: 200px;
+    
+
+}
+
+.title-banner{
+    
+}
+
+.title-nav {
+
+}
+
+.heading {
+
+    display: inline-block;
+}
