@@ -1,28 +1,75 @@
 body {
     margin:0;
-    background-color: #d4d6d9
-}
-
-.main-photo{
-    background-image: url("../images/adam.jpg");
-    background-repeat: no-repeat;
-    background-size: 200px;
-    position: relative;
-    height:200px;
-    width: 200px;
-    
-
-}
-
-.title-banner{
-    
-}
-
-.title-nav {
-
+    background-color: #8791a0
 }
 
 .heading {
+    
+}
+.main-photo{
+    background-image: url("../images/adam.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px;   
+    background-position: center;
+    padding:0px;
+    height:200px;
+   
+}
 
-    display: inline-block;
+.title-banner{
+    background-color: grey; 
+    
+}
+
+.col {
+    padding-right:0px;
+  padding-left:0px;
+}
+
+.title-nav {
+      height:200px;
+    
+ }
+.navigate-links {
+    width:100%;
+}
+
+.nav-box {
+  padding: 10px 25px;
+  border: 0px;
+  margin:0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-box-green {
+    background-color:green;
+    color: white;
+}
+
+.nav-box-purple {
+    background-color: purple;
+    color: white;
+}
+
+.nav-box-red {
+    background-color: #f44336;
+    color: white;
+}
+
+.nav-box-blue {
+    background-color: blue;
+    color: white;
+
+}
+
+
+.nav-box:hover {
+  background-color: white;
+  color: #f44336;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
