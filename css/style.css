@@ -135,3 +135,10 @@ body {
     background-color:rgb(226, 226, 212);
     display: inline-block;
 }
+
+.nav-box i {
+    padding-top: 25px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
