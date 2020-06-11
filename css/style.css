@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 body {
     margin:0;
     padding:0;
@@ -5,73 +7,86 @@ body {
     background-color: #8791a0
 }
 
-.heading {
-    
+.header{
+    margin: 0;
 }
+
 .main-photo{
-    background-color: rgb(71, 71, 70);
+    background: url(../images/adam.jpg);
+    background-size:cover;
     background-position: center;
-    padding:0px;
-    
+    background-repeat: no-repeat;
+        min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
    
 }
 
 .title-banner{
-    background-color: grey; 
+    
+    margin-left:50px;
     
 }
 
-.col {
-    padding:0px;
+.bg-color-name-title {
+    background-color: #676767;
 }
 
-.title-nav {
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
 
-      
-    
- }
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+
 .navigate-links {
-    width:100%;
-}
 
-.nav-box {
-  padding: 10px 25px;
-  border: 0px;
-  margin:0px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.nav-box-green {
-    background-color:green;
-    color: white;
-}
-
-.nav-box-purple {
-    background-color: purple;
-    color: white;
-}
-
-.nav-box-red {
-    background-color: #f44336;
-    color: white;
-}
-
-.nav-box-blue {
-    background-color: blue;
-    color: white;
-
-}
-
-
-.nav-box:hover {
-  background-color: white;
-  color: #f44336;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+.navigate-links-home {
+    background-color: #e67e22;
+    color: white;
+}
+
+.navigate-links-skills {
+    background-color: #9b59b6;
+    color: white;
+}
+
+.navigate-links-contact {
+    background-color: #3498db;
+    color: white;
+}
+
+.navigate-links-cv {
+    background-color: #525252;
+    color: white;
+}
+
+.nav {
+   
+}
+
+.navbar {
+    position: relative;
+    width:100%;
 }
 
 .personal-info {
