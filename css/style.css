@@ -89,6 +89,12 @@ body {
     color: #e67e22;
 }
 
+.nav-box-home i:hover {
+    background-color: white;
+    color: #e67e22;
+}
+
+
 .nav-box-skills {
     background-color: #9b59b6;
     color: white;
@@ -98,6 +104,12 @@ body {
     background-color: white;
     color: #9b59b6;
 }
+
+.nav-box-skills i:hover {
+    background-color: white;
+    color: #9b59b6;
+}
+
 .nav-box-contact {
     background-color: #3498db;
     color: white;
@@ -108,12 +120,22 @@ body {
     color: #3498db;
 }
 
+.nav-box-contact i:hover {
+    background-color: white;
+    color: #3498db;
+}
+
 .nav-box-cv {
     background-color: #525252;
     color: white;
 }
 
 .nav-box-cv:hover {
+    background-color: white;
+    color: #525252;
+}
+
+.nav-box-cv i:hover {
     background-color: white;
     color: #525252;
 }
@@ -141,4 +163,24 @@ body {
     display: block;
     color: #fafafa;
     font-size: 26px;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.footing {
+    background-color: #e3f7e8;
+    text-align:center;
+}
+
+
+
+.footing h5 {
+    text-transform: uppercase;
+    
+}
+
+.footing i {
+    color: black;
 }
