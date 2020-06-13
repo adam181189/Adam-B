@@ -4,7 +4,8 @@ body {
     margin:0;
     padding:0;
     border:0;
-    background-color: #8791a0
+    background-color: #8791a0;
+    max-height:100%;
 }
 
 
@@ -152,6 +153,10 @@ body {
 
 .personal-info h2 {
     text-align:center;
+}
+
+.social-media-links{
+    padding-bottom:10px;
 }
 
 .social-media {
