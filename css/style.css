@@ -226,3 +226,76 @@ body {
 .value {
     font-size:90%
 }
+
+.skills-bar {
+    margin: 40px 20px;
+}
+
+.progress-type {
+    position:absolute;
+    left: 0px;
+     font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    text-decoration:bold;   
+}
+
+.progress-type-blue{
+    color: rgba(255, 145, 0, 0.932);
+}
+
+.progress-type-green{
+    color: rgba(255, 0, 0, 0.918);
+}
+.progress-type-aqua {
+    color:rgba(255, 68, 0, 0.986);
+}
+
+.progress-type-yellow{
+    color:rgba(128, 0, 128, 0.959);
+}
+
+.progress-type-red {
+    color:rgba(0, 128, 0, 0.945);
+}
+
+.progress {
+    position: relative;
+    height:25px;
+    margin-bottom:4px;
+    width:100%;
+    background-color:pink;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.timeline-item p{
+   padding:0px;
+   margin: 0px;
+}
+
+.history-items {
+    margin-bottom:30px;
+}
