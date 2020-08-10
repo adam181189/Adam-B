@@ -142,8 +142,34 @@ body {
     color: #313136;
 }
 
-.nav {
-   
+.nav-box-interests {
+    background-color: #792b61;
+    color: white;
+}
+
+.nav-box-interests:hover {
+    background-color: white;
+    color: #792b61;
+}
+
+.nav-box-interests i:hover {
+    background-color: white;
+    color: #792b61;
+}
+
+.nav-box-github {
+    background-color: #27a168;
+    color: white;
+}
+
+.nav-box-github:hover {
+    background-color: white;
+    color: #27a168;
+}
+
+.nav-box-github i:hover {
+    background-color: white;
+    color: #27a168;
 }
 
 .personal-info {
@@ -216,6 +242,28 @@ body {
 .personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
+}
+
+.conference-heading {
+    text-transform: uppercase;
+    text-decoration: bold;
+    text-align: center;
+}
+
+.conference-info-item {
+     margin-bottom: 20px;
+    display: block;
+    
+}
+
+.conference-heading .key,
+.conference-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+#map {
+    min-height: 360px;
 }
 
 .key {
