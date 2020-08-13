@@ -106,3 +106,19 @@ function fetchGitHubInformation(event) {
 }
 
 $(document).ready(fetchGitHubInformation);
+
+cunction sendMail(contactForm) {
+    emailjs.send("gmail", "adam-b", {
+        "from_name": contactForm.name.value,
+        "from-Email": contactForm.emailaddress.value,
+        "information_request": contactForm.projectSummary.value
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        });
+    )
+}
