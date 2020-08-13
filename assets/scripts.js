@@ -108,14 +108,15 @@ function fetchGitHubInformation(event) {
 $(document).ready(fetchGitHubInformation);
 
 function sendMail(contactForm) {
-    emailjs.send("gmail", "adam-b", {
+    emailjs.send("gmail", "adam_b", {
         "from_name": contactForm.name.value,
-        "from-Email": contactForm.emailaddress.value,
-        "information_request": contactForm.projectsummary.value
+        "from_email": contactForm.emailaddress.value,
+        "project_request": contactForm.projectsummary.value
     })
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            document.getElementById("form-reset").reset();
         },
         function(error) {
             console.log("FAILED", error);
