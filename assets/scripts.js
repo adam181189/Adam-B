@@ -107,11 +107,11 @@ function fetchGitHubInformation(event) {
 
 $(document).ready(fetchGitHubInformation);
 
-cunction sendMail(contactForm) {
+function sendMail(contactForm) {
     emailjs.send("gmail", "adam-b", {
         "from_name": contactForm.name.value,
         "from-Email": contactForm.emailaddress.value,
-        "information_request": contactForm.projectSummary.value
+        "information_request": contactForm.projectsummary.value
     })
     .then(
         function(response) {
@@ -120,5 +120,5 @@ cunction sendMail(contactForm) {
         function(error) {
             console.log("FAILED", error);
         });
-    )
+        return false;
 }
